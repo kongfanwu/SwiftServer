@@ -1,0 +1,395 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Filter404"
+- "server"
+- "routes"
+- "responseFilters404"
+- "myLogger"
+provides-nominal:
+- "V16MyAwesomeProject9Filter404"
+provides-member:
+- ["V16MyAwesomeProject9Filter404", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "RequestLogger"
+- "routes"
+- "UnicodeScalarType"
+- "myLogger"
+- "IntegerLiteralType"
+- "FloatLiteralType"
+- "HTTPResponseFilter"
+- "server"
+- "Dictionary"
+- "Filter404"
+- "HTTPFilterPriority"
+- "AssignmentPrecedence"
+- "print"
+- "HTTPServer"
+- "HTTPResponseFilterResult"
+- "StringLiteralType"
+- "responseFilters404"
+- "BooleanLiteralType"
+- "String"
+- "Array"
+- "PerfectError"
+- "HTTPResponse"
+- "Routes"
+depends-member:
+- ["Ps9AnyObject", "addRoutes"]
+- ["Ps9AnyObject", "documentRoot"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "serverPort"]
+- ["Ps9AnyObject", "setRequestFilters"]
+- ["Ps9AnyObject", "setResponseFilters"]
+- ["Ps9AnyObject", "start"]
+- ["Sa", "Element"]
+- !private ["Sa", "IndexDistance"]
+- !private ["Sa", "count"]
+- ["Sa", "deinit"]
+- ["Ps23BidirectionalCollection", "Element"]
+- !private ["Ps23BidirectionalCollection", "IndexDistance"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- ["Ps22BidirectionalIndexable", "Element"]
+- !private ["Ps22BidirectionalIndexable", "IndexDistance"]
+- !private ["Ps22BidirectionalIndexable", "count"]
+- ["Sb", "deinit"]
+- ["Ps7CVarArg", "Element"]
+- !private ["Ps7CVarArg", "IndexDistance"]
+- ["Ps7CVarArg", "Key"]
+- ["Ps7CVarArg", "Value"]
+- !private ["Ps7CVarArg", "count"]
+- ["Ps7CVarArg", "init"]
+- ["Vs9Character", "deinit"]
+- ["Ps10Collection", "Element"]
+- !private ["Ps10Collection", "IndexDistance"]
+- ["Ps10Collection", "Key"]
+- ["Ps10Collection", "Value"]
+- !private ["Ps10Collection", "count"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- ["Ps28CustomDebugStringConvertible", "Key"]
+- ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "IndexDistance"]
+- ["Ps17CustomReflectable", "Key"]
+- ["Ps17CustomReflectable", "Value"]
+- !private ["Ps17CustomReflectable", "count"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "IndexDistance"]
+- ["Ps23CustomStringConvertible", "Key"]
+- ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- ["Ps23CustomStringConvertible", "get"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "notFound"]
+- ["Vs10Dictionary", "Key"]
+- ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- ["Sd", "deinit"]
+- !private ["Ps9Equatable", "continue"]
+- !private ["Ps9Equatable", "done"]
+- ["Ps9Equatable", "get"]
+- ["Ps9Equatable", "high"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "low"]
+- ["Ps5Error", "networkError"]
+- ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "IndexDistance"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["V16MyAwesomeProject9Filter404", "HTTPResponse"]
+- ["V16MyAwesomeProject9Filter404", "HTTPResponseFilterResult"]
+- ["V16MyAwesomeProject9Filter404", "deinit"]
+- ["V16MyAwesomeProject9Filter404", "filterBody"]
+- ["V16MyAwesomeProject9Filter404", "filterHeaders"]
+- ["V16MyAwesomeProject9Filter404", "init"]
+- ["Sf", "deinit"]
+- ["O11PerfectHTTP18HTTPFilterPriority", "deinit"]
+- ["O11PerfectHTTP18HTTPFilterPriority", "high"]
+- ["O11PerfectHTTP18HTTPFilterPriority", "low"]
+- ["O11PerfectHTTP10HTTPMethod", "deinit"]
+- ["O11PerfectHTTP10HTTPMethod", "get"]
+- ["P11PerfectHTTP11HTTPRequest", "deinit"]
+- !private ["P11PerfectHTTP11HTTPRequest", "path"]
+- ["P11PerfectHTTP17HTTPRequestFilter", "init"]
+- ["P11PerfectHTTP12HTTPResponse", "appendBody"]
+- !private ["P11PerfectHTTP12HTTPResponse", "bodyBytes"]
+- ["P11PerfectHTTP12HTTPResponse", "completed"]
+- ["P11PerfectHTTP12HTTPResponse", "deinit"]
+- !private ["P11PerfectHTTP12HTTPResponse", "request"]
+- ["P11PerfectHTTP12HTTPResponse", "setBody"]
+- ["P11PerfectHTTP12HTTPResponse", "setHeader"]
+- !private ["P11PerfectHTTP12HTTPResponse", "status"]
+- ["P11PerfectHTTP18HTTPResponseFilter", "filterBody"]
+- ["P11PerfectHTTP18HTTPResponseFilter", "filterHeaders"]
+- ["P11PerfectHTTP18HTTPResponseFilter", "init"]
+- ["P11PerfectHTTP18HTTPResponseFilter", ""]
+- !private ["O11PerfectHTTP24HTTPResponseFilterResult", "continue"]
+- ["O11PerfectHTTP24HTTPResponseFilterResult", "deinit"]
+- !private ["O11PerfectHTTP24HTTPResponseFilterResult", "done"]
+- ["O11PerfectHTTP18HTTPResponseStatus", "notFound"]
+- ["C17PerfectHTTPServer10HTTPServer", "addRoutes"]
+- ["C17PerfectHTTPServer10HTTPServer", "deinit"]
+- ["C17PerfectHTTPServer10HTTPServer", "documentRoot"]
+- ["C17PerfectHTTPServer10HTTPServer", "init"]
+- ["C17PerfectHTTPServer10HTTPServer", "serverPort"]
+- ["C17PerfectHTTPServer10HTTPServer", "setRequestFilters"]
+- ["C17PerfectHTTPServer10HTTPServer", "setResponseFilters"]
+- ["C17PerfectHTTPServer10HTTPServer", "start"]
+- !private ["Ps8Hashable", "continue"]
+- !private ["Ps8Hashable", "done"]
+- ["Ps8Hashable", "get"]
+- ["Ps8Hashable", "high"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "low"]
+- ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- ["Ps9Indexable", "Key"]
+- ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "count"]
+- ["Ps13IndexableBase", "Element"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- ["Ps13IndexableBase", "Key"]
+- ["Ps13IndexableBase", "Value"]
+- !private ["Ps13IndexableBase", "count"]
+- ["Si", "deinit"]
+- ["Vs5Int16", "deinit"]
+- ["Vs5Int32", "deinit"]
+- ["Vs5Int64", "deinit"]
+- ["Vs4Int8", "deinit"]
+- ["P10PerfectLib15JSONConvertible", "Element"]
+- !private ["P10PerfectLib15JSONConvertible", "IndexDistance"]
+- ["P10PerfectLib15JSONConvertible", "Key"]
+- ["P10PerfectLib15JSONConvertible", "Value"]
+- !private ["P10PerfectLib15JSONConvertible", "count"]
+- ["P10PerfectLib15JSONConvertible", "init"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["Ps17MutableCollection", "Element"]
+- !private ["Ps17MutableCollection", "IndexDistance"]
+- !private ["Ps17MutableCollection", "count"]
+- ["Ps16MutableIndexable", "Element"]
+- !private ["Ps16MutableIndexable", "IndexDistance"]
+- !private ["Ps16MutableIndexable", "count"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "init"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- !private ["OO11PerfectHTTP18HTTPResponseHeader4Name", "contentLength"]
+- ["OO11PerfectHTTP18HTTPResponseHeader4Name", "contentType"]
+- ["OO11PerfectHTTP18HTTPResponseHeader4Name", "deinit"]
+- ["O10PerfectLib12PerfectError", "networkError"]
+- ["Ps22RandomAccessCollection", "Element"]
+- !private ["Ps22RandomAccessCollection", "IndexDistance"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- ["Ps21RandomAccessIndexable", "Element"]
+- !private ["Ps21RandomAccessIndexable", "IndexDistance"]
+- !private ["Ps21RandomAccessIndexable", "count"]
+- ["Ps26RangeReplaceableCollection", "Element"]
+- !private ["Ps26RangeReplaceableCollection", "IndexDistance"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- ["Ps25RangeReplaceableIndexable", "Element"]
+- !private ["Ps25RangeReplaceableIndexable", "IndexDistance"]
+- !private ["Ps25RangeReplaceableIndexable", "count"]
+- ["C20PerfectRequestLogger13RequestLogger", "deinit"]
+- ["C20PerfectRequestLogger13RequestLogger", "init"]
+- ["V11PerfectHTTP6Routes", "add"]
+- ["V11PerfectHTTP6Routes", "deinit"]
+- ["V11PerfectHTTP6Routes", "init"]
+- ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- ["Ps8Sequence", "Key"]
+- ["Ps8Sequence", "Value"]
+- !private ["Ps8Sequence", "count"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["Su", "deinit"]
+- ["Vs6UInt16", "deinit"]
+- ["Vs6UInt32", "deinit"]
+- ["Vs6UInt64", "deinit"]
+- ["Vs5UInt8", "deinit"]
+- ["Sc", "deinit"]
+- ["Ps14_ArrayProtocol", "Element"]
+- !private ["Ps14_ArrayProtocol", "IndexDistance"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "IndexDistance"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "continue"]
+- !private ["Ps9_Hashable", "done"]
+- ["Ps9_Hashable", "get"]
+- ["Ps9_Hashable", "high"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "low"]
+- ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "IndexDistance"]
+- ["Ps21_ObjectiveCBridgeable", "Key"]
+- ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- "Ps23BidirectionalCollection"
+- "Ps22BidirectionalIndexable"
+- "Sb"
+- "Ps7CVarArg"
+- "Vs9Character"
+- "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Sd"
+- "Ps9Equatable"
+- "Ps5Error"
+- "Ps25ExpressibleByArrayLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "V16MyAwesomeProject9Filter404"
+- "Sf"
+- "O11PerfectHTTP18HTTPFilterPriority"
+- "O11PerfectHTTP10HTTPMethod"
+- "P11PerfectHTTP11HTTPRequest"
+- "P11PerfectHTTP17HTTPRequestFilter"
+- "P11PerfectHTTP12HTTPResponse"
+- "P11PerfectHTTP18HTTPResponseFilter"
+- "O11PerfectHTTP24HTTPResponseFilterResult"
+- "O11PerfectHTTP18HTTPResponseStatus"
+- "C17PerfectHTTPServer10HTTPServer"
+- "Ps8Hashable"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- "Si"
+- "Vs5Int16"
+- "Vs5Int32"
+- "Vs5Int64"
+- "Vs4Int8"
+- "P10PerfectLib15JSONConvertible"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "Ps17MutableCollection"
+- "Ps16MutableIndexable"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "OO11PerfectHTTP18HTTPResponseHeader4Name"
+- "O10PerfectLib12PerfectError"
+- "Ps22RandomAccessCollection"
+- "Ps21RandomAccessIndexable"
+- "Ps26RangeReplaceableCollection"
+- "Ps25RangeReplaceableIndexable"
+- "C20PerfectRequestLogger13RequestLogger"
+- "V11PerfectHTTP6Routes"
+- "Ps8Sequence"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Su"
+- "Vs6UInt16"
+- "Vs6UInt32"
+- "Vs6UInt64"
+- "Vs5UInt8"
+- "Sc"
+- "Ps14_ArrayProtocol"
+- "Ps24_DestructorSafeContainer"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/PerfectLib.swiftmodule"
+- "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/PerfectHTTP.swiftmodule"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../ssl.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../srtp.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../ssl23.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../pqueue.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../dtls1.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../tls1.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../ssl3.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../ssl2.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../opensslconf.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../kssl.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../hmac.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../pem2.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../e_os2.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../pem.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../pkcs7.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../x509_vfy.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../sha.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../dh.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../dsa.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../rsa.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../ecdh.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../ecdsa.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../ec.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../bn.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../asn1.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../obj_mac.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../objects.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../evp.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../buffer.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../x509.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../comp.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../lhash.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../err.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../symhacks.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../ossl_typ.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../opensslv.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../safestack.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../stack.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../crypto.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../bio.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/openssl.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/module.modulemap"
+- "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/PerfectNet.swiftmodule"
+- "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/PerfectThread.swiftmodule"
+- "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/PerfectHTTPServer.swiftmodule"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/PerfectHTTPServer-2.0.8/Sources/CHTTPParser/include/http_parser.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/PerfectHTTPServer-2.0.8/Sources/CHTTPParser/include/module.modulemap"
+- "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/PerfectRequestLogger.swiftmodule"
+- "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/PerfectLogger.swiftmodule"
+- "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/SwiftMoment.swiftmodule"
+- "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/SwiftRandom.swiftmodule"
+interface-hash: "d8cc2b465788e8a5184aa67d2e6f5d1e"

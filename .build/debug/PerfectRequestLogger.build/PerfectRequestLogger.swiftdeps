@@ -1,0 +1,520 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RequestLogFile"
+- "RequestLogger"
+provides-nominal:
+- "V20PerfectRequestLogger14RequestLogFile"
+- "C20PerfectRequestLogger13RequestLogger"
+provides-member:
+- ["V20PerfectRequestLogger14RequestLogFile", ""]
+- ["C20PerfectRequestLogger13RequestLogger", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "HTTPResponseFilterResult"
+- !private "*"
+- "TernaryPrecedence"
+- !private "+="
+- "RequestLogger"
+- "UInt32"
+- !private "??"
+- !private "Int"
+- "RequestLogFile"
+- "AssignmentPrecedence"
+- !private "+"
+- "CastingPrecedence"
+- !private "timeval"
+- !private "UnicodeScalarType"
+- "HTTPRequestFilterResult"
+- !private "moment"
+- "HTTPResponse"
+- "HTTPRequest"
+- !private "gettimeofday"
+- !private "PerfectNet"
+- "StringLiteralType"
+- "HTTPResponseFilter"
+- "HTTPRequestFilter"
+- "String"
+- !private "LogFile"
+- !private "-"
+- !private "/"
+- "Double"
+- !private "Randoms"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "Int"]
+- !private ["Ps9AnyObject", "LogFile"]
+- !private ["Ps9AnyObject", "Randoms"]
+- ["Ps9AnyObject", "RequestLogFile"]
+- ["Ps9AnyObject", "filter"]
+- ["Ps9AnyObject", "filterBody"]
+- ["Ps9AnyObject", "filterHeaders"]
+- !private ["Ps9AnyObject", "getNow"]
+- !private ["Ps9AnyObject", "gettimeofday"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isEmpty"]
+- !private ["Ps9AnyObject", "moment"]
+- !private ["Ps9AnyObject", "randomID"]
+- !private ["Ps9AnyObject", "sequence"]
+- !private ["Ps9AnyObject", "timeval"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "IndexDistance"]
+- !private ["Sa", "count"]
+- !private ["Sa", "deinit"]
+- !private ["Ps23BidirectionalCollection", "IndexDistance"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps22BidirectionalIndexable", "IndexDistance"]
+- !private ["Ps22BidirectionalIndexable", "count"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "IndexDistance"]
+- !private ["Ps7CVarArg", "count"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isEmpty"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "subscript"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "isEmpty"]
+- !private ["Ps17CustomReflectable", "IndexDistance"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "isEmpty"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "IndexDistance"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "code"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["V10Foundation4Date", "deinit"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "subscript"]
+- ["Sd", "deinit"]
+- !private ["Sd", "init"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "continue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isEmpty"]
+- !private ["Ps25ExpressibleByArrayLiteral", "IndexDistance"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "isEmpty"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "isEmpty"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "isEmpty"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "isEmpty"]
+- !private ["Sf", "deinit"]
+- !private ["Ps13FloatingPoint", "init"]
+- ["O11PerfectHTTP10HTTPMethod", "deinit"]
+- !private ["P11PerfectHTTP11HTTPRequest", "connection"]
+- ["P11PerfectHTTP11HTTPRequest", "deinit"]
+- !private ["P11PerfectHTTP11HTTPRequest", "method"]
+- !private ["P11PerfectHTTP11HTTPRequest", "protocolVersion"]
+- !private ["P11PerfectHTTP11HTTPRequest", "remoteAddress"]
+- !private ["P11PerfectHTTP11HTTPRequest", "scratchPad"]
+- !private ["P11PerfectHTTP11HTTPRequest", "serverName"]
+- !private ["P11PerfectHTTP11HTTPRequest", "uri"]
+- !private ["P11PerfectHTTP17HTTPRequestFilter", "Double"]
+- !private ["P11PerfectHTTP17HTTPRequestFilter", "Int"]
+- !private ["P11PerfectHTTP17HTTPRequestFilter", "LogFile"]
+- !private ["P11PerfectHTTP17HTTPRequestFilter", "Randoms"]
+- ["P11PerfectHTTP17HTTPRequestFilter", "RequestLogFile"]
+- ["P11PerfectHTTP17HTTPRequestFilter", "filter"]
+- ["P11PerfectHTTP17HTTPRequestFilter", "filterBody"]
+- ["P11PerfectHTTP17HTTPRequestFilter", "filterHeaders"]
+- !private ["P11PerfectHTTP17HTTPRequestFilter", "getNow"]
+- !private ["P11PerfectHTTP17HTTPRequestFilter", "gettimeofday"]
+- !private ["P11PerfectHTTP17HTTPRequestFilter", "moment"]
+- !private ["P11PerfectHTTP17HTTPRequestFilter", "randomID"]
+- !private ["P11PerfectHTTP17HTTPRequestFilter", "sequence"]
+- !private ["P11PerfectHTTP17HTTPRequestFilter", "timeval"]
+- ["P11PerfectHTTP17HTTPRequestFilter", ""]
+- !private ["O11PerfectHTTP23HTTPRequestFilterResult", "continue"]
+- ["O11PerfectHTTP23HTTPRequestFilterResult", "deinit"]
+- !private ["P11PerfectHTTP12HTTPResponse", "bodyBytes"]
+- ["P11PerfectHTTP12HTTPResponse", "deinit"]
+- !private ["P11PerfectHTTP12HTTPResponse", "request"]
+- !private ["P11PerfectHTTP12HTTPResponse", "status"]
+- !private ["P11PerfectHTTP18HTTPResponseFilter", "Double"]
+- !private ["P11PerfectHTTP18HTTPResponseFilter", "Int"]
+- !private ["P11PerfectHTTP18HTTPResponseFilter", "LogFile"]
+- !private ["P11PerfectHTTP18HTTPResponseFilter", "Randoms"]
+- ["P11PerfectHTTP18HTTPResponseFilter", "RequestLogFile"]
+- ["P11PerfectHTTP18HTTPResponseFilter", "filter"]
+- ["P11PerfectHTTP18HTTPResponseFilter", "filterBody"]
+- ["P11PerfectHTTP18HTTPResponseFilter", "filterHeaders"]
+- !private ["P11PerfectHTTP18HTTPResponseFilter", "getNow"]
+- !private ["P11PerfectHTTP18HTTPResponseFilter", "gettimeofday"]
+- !private ["P11PerfectHTTP18HTTPResponseFilter", "moment"]
+- !private ["P11PerfectHTTP18HTTPResponseFilter", "randomID"]
+- !private ["P11PerfectHTTP18HTTPResponseFilter", "sequence"]
+- !private ["P11PerfectHTTP18HTTPResponseFilter", "timeval"]
+- ["P11PerfectHTTP18HTTPResponseFilter", ""]
+- !private ["O11PerfectHTTP24HTTPResponseFilterResult", "continue"]
+- ["O11PerfectHTTP24HTTPResponseFilterResult", "deinit"]
+- !private ["O11PerfectHTTP18HTTPResponseStatus", "code"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "continue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isEmpty"]
+- ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "count"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- ["Si", "deinit"]
+- !private ["Si", "init"]
+- !private ["Vs5Int16", "deinit"]
+- ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["P10PerfectLib15JSONConvertible", "IndexDistance"]
+- !private ["P10PerfectLib15JSONConvertible", "_getBuiltinLogicValue"]
+- !private ["P10PerfectLib15JSONConvertible", "count"]
+- ["P10PerfectLib15JSONConvertible", "init"]
+- !private ["P10PerfectLib15JSONConvertible", "isEmpty"]
+- !private ["P10PerfectLib15JSONConvertible", "subscript"]
+- !private ["V13PerfectLogger7LogFile", "info"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "isEmpty"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "isEmpty"]
+- ["V11SwiftMoment6Moment", "deinit"]
+- !private ["Ps17MutableCollection", "IndexDistance"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps16MutableIndexable", "IndexDistance"]
+- !private ["Ps16MutableIndexable", "count"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isEmpty"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "isEmpty"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "isEmpty"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isEmpty"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isEmpty"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "isEmpty"]
+- ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "isEmpty"]
+- ["C10PerfectNet6NetTCP", "deinit"]
+- ["C10PerfectNet9NetTCPSSL", "deinit"]
+- ["Sq", "deinit"]
+- !private ["Sq", "init"]
+- !private ["Ps22RandomAccessCollection", "IndexDistance"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps21RandomAccessIndexable", "IndexDistance"]
+- !private ["Ps21RandomAccessIndexable", "count"]
+- !private ["V11SwiftRandom7Randoms", "randomAlphaNumericString"]
+- !private ["Ps26RangeReplaceableCollection", "IndexDistance"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps25RangeReplaceableIndexable", "IndexDistance"]
+- !private ["Ps25RangeReplaceableIndexable", "count"]
+- !private ["V20PerfectRequestLogger14RequestLogFile", "init"]
+- ["V20PerfectRequestLogger14RequestLogFile", "location"]
+- ["C20PerfectRequestLogger13RequestLogger", "Double"]
+- ["C20PerfectRequestLogger13RequestLogger", "HTTPRequest"]
+- ["C20PerfectRequestLogger13RequestLogger", "HTTPRequestFilterResult"]
+- ["C20PerfectRequestLogger13RequestLogger", "HTTPResponse"]
+- ["C20PerfectRequestLogger13RequestLogger", "HTTPResponseFilterResult"]
+- !private ["C20PerfectRequestLogger13RequestLogger", "Int"]
+- !private ["C20PerfectRequestLogger13RequestLogger", "LogFile"]
+- !private ["C20PerfectRequestLogger13RequestLogger", "PerfectNet"]
+- !private ["C20PerfectRequestLogger13RequestLogger", "Randoms"]
+- ["C20PerfectRequestLogger13RequestLogger", "RequestLogFile"]
+- ["C20PerfectRequestLogger13RequestLogger", "String"]
+- ["C20PerfectRequestLogger13RequestLogger", "UInt32"]
+- ["C20PerfectRequestLogger13RequestLogger", "defaultLogFile"]
+- ["C20PerfectRequestLogger13RequestLogger", "deinit"]
+- ["C20PerfectRequestLogger13RequestLogger", "filter"]
+- ["C20PerfectRequestLogger13RequestLogger", "filterBody"]
+- ["C20PerfectRequestLogger13RequestLogger", "filterHeaders"]
+- ["C20PerfectRequestLogger13RequestLogger", "getNow"]
+- !private ["C20PerfectRequestLogger13RequestLogger", "gettimeofday"]
+- ["C20PerfectRequestLogger13RequestLogger", "init"]
+- !private ["C20PerfectRequestLogger13RequestLogger", "moment"]
+- ["C20PerfectRequestLogger13RequestLogger", "randomID"]
+- ["C20PerfectRequestLogger13RequestLogger", "sequence"]
+- !private ["C20PerfectRequestLogger13RequestLogger", "timeval"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Strideable", "init"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "isEmpty"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "isEmpty"]
+- !private ["V10Foundation8TimeZone", "deinit"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps14_ArrayProtocol", "IndexDistance"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps24_DestructorSafeContainer", "IndexDistance"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "isEmpty"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "isEmpty"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "isEmpty"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "isEmpty"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "isEmpty"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "continue"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isEmpty"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "IndexDistance"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "init"]
+- ["VSC7timeval", "deinit"]
+- !private ["VSC7timeval", "init"]
+- !private ["VSC7timeval", "tv_sec"]
+- !private ["VSC7timeval", "tv_usec"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "V10Foundation4Date"
+- !private "Vs10Dictionary"
+- "Sd"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- !private "Ps13FloatingPoint"
+- "O11PerfectHTTP10HTTPMethod"
+- "P11PerfectHTTP11HTTPRequest"
+- "P11PerfectHTTP17HTTPRequestFilter"
+- "O11PerfectHTTP23HTTPRequestFilterResult"
+- "P11PerfectHTTP12HTTPResponse"
+- "P11PerfectHTTP18HTTPResponseFilter"
+- "O11PerfectHTTP24HTTPResponseFilterResult"
+- !private "O11PerfectHTTP18HTTPResponseStatus"
+- "Ps8Hashable"
+- "SQ"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Si"
+- !private "Vs5Int16"
+- "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps16IteratorProtocol"
+- "P10PerfectLib15JSONConvertible"
+- !private "V13PerfectLogger7LogFile"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "V11SwiftMoment6Moment"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "C10PerfectNet6NetTCP"
+- "C10PerfectNet9NetTCPSSL"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "V11SwiftRandom7Randoms"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- "V20PerfectRequestLogger14RequestLogFile"
+- "C20PerfectRequestLogger13RequestLogger"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs5Slice"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "V10Foundation8TimeZone"
+- !private "Su"
+- !private "Vs6UInt16"
+- "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- "VSC7timeval"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/PerfectLib.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/PerfectHTTP.swiftmodule"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../ssl.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../srtp.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../ssl23.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../pqueue.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../dtls1.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../tls1.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../ssl3.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../ssl2.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../opensslconf.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../kssl.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../hmac.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../pem2.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../e_os2.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../pem.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../pkcs7.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../x509_vfy.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../sha.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../dh.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../dsa.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../rsa.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../ecdh.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../ecdsa.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../ec.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../bn.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../asn1.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../obj_mac.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../objects.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../evp.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../buffer.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../x509.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../comp.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../lhash.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../err.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../symhacks.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../ossl_typ.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../opensslv.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../safestack.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../stack.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../crypto.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/../bio.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/openssl.h"
+- "/Users/kongfanwu/Desktop/AwesomeProject/Packages/COpenSSL-2.0.2/COpenSSL/include/module.modulemap"
+- "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/PerfectNet.swiftmodule"
+- "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/PerfectThread.swiftmodule"
+- "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/SwiftMoment.swiftmodule"
+- "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/PerfectLogger.swiftmodule"
+- "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/SwiftRandom.swiftmodule"
+interface-hash: "57e8c220d74586a6e1b060b383ea4214"

@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/PerfectLogger.build/master.swiftdeps"
+  },
+  "/Users/kongfanwu/Desktop/AwesomeProject/Packages/PerfectLogger-0.0.7/Sources/Perfect_Logger.swift": {
+    "dependencies": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/PerfectLogger.build/Perfect_Logger.d",
+    "object": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/PerfectLogger.build/Perfect_Logger.swift.o",
+    "swiftmodule": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/PerfectLogger.build/Perfect_Logger~partial.swiftmodule",
+    "swift-dependencies": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/PerfectLogger.build/Perfect_Logger.swiftdeps"
+  }
+}

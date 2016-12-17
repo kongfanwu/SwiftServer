@@ -1,0 +1,59 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Random"
+provides-nominal:
+- "P11SwiftRandom6Random"
+provides-member:
+- ["P11SwiftRandom6Random", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "UInt8"
+- "Int64"
+- "UInt"
+- "Random"
+- "String"
+- "Int16"
+- "UInt16"
+- "Int8"
+- "UInt32"
+- "Int"
+- "Int32"
+- "UInt64"
+depends-member:
+- ["P11SwiftRandom6Random", "Int"]
+- ["P11SwiftRandom6Random", "Int16"]
+- ["P11SwiftRandom6Random", "Int32"]
+- ["P11SwiftRandom6Random", "Int64"]
+- ["P11SwiftRandom6Random", "Int8"]
+- ["P11SwiftRandom6Random", "String"]
+- ["P11SwiftRandom6Random", "UInt"]
+- ["P11SwiftRandom6Random", "UInt16"]
+- ["P11SwiftRandom6Random", "UInt32"]
+- ["P11SwiftRandom6Random", "UInt64"]
+- ["P11SwiftRandom6Random", "UInt8"]
+- ["P11SwiftRandom6Random", "int"]
+- ["P11SwiftRandom6Random", "int16"]
+- ["P11SwiftRandom6Random", "int32"]
+- ["P11SwiftRandom6Random", "int64"]
+- ["P11SwiftRandom6Random", "int8"]
+- ["P11SwiftRandom6Random", "random"]
+- ["P11SwiftRandom6Random", "secureToken"]
+- ["P11SwiftRandom6Random", "uint"]
+- ["P11SwiftRandom6Random", "uint16"]
+- ["P11SwiftRandom6Random", "uint32"]
+- ["P11SwiftRandom6Random", "uint64"]
+- ["P11SwiftRandom6Random", "uint8"]
+- ["P11SwiftRandom6Random", ""]
+depends-nominal:
+- "P11SwiftRandom6Random"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+interface-hash: "4657d25860b55ceb292c07654659d56b"

@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/SwiftRandom.build/master.swiftdeps"
+  },
+  "/Users/kongfanwu/Desktop/AwesomeProject/Packages/SwiftRandom-0.2.4/Sources/SwiftRandom/Random.swift": {
+    "dependencies": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/SwiftRandom.build/Random.d",
+    "object": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/SwiftRandom.build/Random.swift.o",
+    "swiftmodule": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/SwiftRandom.build/Random~partial.swiftmodule",
+    "swift-dependencies": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/SwiftRandom.build/Random.swiftdeps"
+  },
+  "/Users/kongfanwu/Desktop/AwesomeProject/Packages/SwiftRandom-0.2.4/Sources/SwiftRandom/Randoms.swift": {
+    "dependencies": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/SwiftRandom.build/Randoms.d",
+    "object": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/SwiftRandom.build/Randoms.swift.o",
+    "swiftmodule": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/SwiftRandom.build/Randoms~partial.swiftmodule",
+    "swift-dependencies": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/SwiftRandom.build/Randoms.swiftdeps"
+  },
+  "/Users/kongfanwu/Desktop/AwesomeProject/Packages/SwiftRandom-0.2.4/Sources/SwiftRandom/URandom.swift": {
+    "dependencies": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/SwiftRandom.build/URandom.d",
+    "object": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/SwiftRandom.build/URandom.swift.o",
+    "swiftmodule": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/SwiftRandom.build/URandom~partial.swiftmodule",
+    "swift-dependencies": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/SwiftRandom.build/URandom.swiftdeps"
+  }
+}

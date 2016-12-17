@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/MyAwesomeProject.build/master.swiftdeps"
+  },
+  "/Users/kongfanwu/Desktop/AwesomeProject/Sources/main.swift": {
+    "dependencies": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/MyAwesomeProject.build/main.d",
+    "object": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/MyAwesomeProject.build/main.swift.o",
+    "swiftmodule": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/MyAwesomeProject.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/MyAwesomeProject.build/main.swiftdeps"
+  },
+  "/Users/kongfanwu/Desktop/AwesomeProject/Sources/xuexi.swift": {
+    "dependencies": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/MyAwesomeProject.build/xuexi.d",
+    "object": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/MyAwesomeProject.build/xuexi.swift.o",
+    "swiftmodule": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/MyAwesomeProject.build/xuexi~partial.swiftmodule",
+    "swift-dependencies": "/Users/kongfanwu/Desktop/AwesomeProject/.build/debug/MyAwesomeProject.build/xuexi.swiftdeps"
+  }
+}

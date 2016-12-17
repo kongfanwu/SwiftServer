@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "e1ce0a7c2862531d45b688adc1b0681f"
+build_time: [535112507, 683286000]
+inputs:
+  "/Users/kongfanwu/Desktop/AwesomeProject/Packages/SwiftRandom-0.2.4/Sources/SwiftRandom/Random.swift": [535112500, 0]
+  "/Users/kongfanwu/Desktop/AwesomeProject/Packages/SwiftRandom-0.2.4/Sources/SwiftRandom/Randoms.swift": [535112500, 0]
+  "/Users/kongfanwu/Desktop/AwesomeProject/Packages/SwiftRandom-0.2.4/Sources/SwiftRandom/URandom.swift": [535112500, 0]

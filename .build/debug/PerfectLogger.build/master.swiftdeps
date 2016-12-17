@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "cfacc88c89cc68cabb2a8f2ea351fc1b"
+build_time: [535112508, 425998000]
+inputs:
+  "/Users/kongfanwu/Desktop/AwesomeProject/Packages/PerfectLogger-0.0.7/Sources/Perfect_Logger.swift": [535112489, 0]

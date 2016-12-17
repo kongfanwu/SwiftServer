@@ -1,0 +1,13 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "9741db8fc081ed83eaaceb8217ead694"
+build_time: [535099067, 876616000]
+inputs:
+  "/Users/kongfanwu/Desktop/AwesomeProject/Packages/PerfectHTTP-2.0.7/Sources/HTTPFilter.swift": [535096608, 0]
+  "/Users/kongfanwu/Desktop/AwesomeProject/Packages/PerfectHTTP-2.0.7/Sources/HTTPHeaders.swift": [535096608, 0]
+  "/Users/kongfanwu/Desktop/AwesomeProject/Packages/PerfectHTTP-2.0.7/Sources/HTTPMethod.swift": [535096608, 0]
+  "/Users/kongfanwu/Desktop/AwesomeProject/Packages/PerfectHTTP-2.0.7/Sources/HTTPRequest.swift": [535096608, 0]
+  "/Users/kongfanwu/Desktop/AwesomeProject/Packages/PerfectHTTP-2.0.7/Sources/HTTPResponse.swift": [535096608, 0]
+  "/Users/kongfanwu/Desktop/AwesomeProject/Packages/PerfectHTTP-2.0.7/Sources/MimeReader.swift": [535096608, 0]
+  "/Users/kongfanwu/Desktop/AwesomeProject/Packages/PerfectHTTP-2.0.7/Sources/MimeType.swift": [535096608, 0]
+  "/Users/kongfanwu/Desktop/AwesomeProject/Packages/PerfectHTTP-2.0.7/Sources/Routing.swift": [535096608, 0]
+  "/Users/kongfanwu/Desktop/AwesomeProject/Packages/PerfectHTTP-2.0.7/Sources/StaticFileHandler.swift": [535096608, 0]
