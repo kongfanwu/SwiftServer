@@ -7,7 +7,7 @@ struct Filter404: HTTPResponseFilter {
     func filterBody(response: HTTPResponse, callback: (HTTPResponseFilterResult) -> ()) {
         callback(.continue)
     }
-    
+
     func filterHeaders(response: HTTPResponse, callback: (HTTPResponseFilterResult) -> ()) {
         if case .notFound = response.status {
             response.setBody(string: "文件 \(response.request.path) 不存在。")
@@ -21,7 +21,7 @@ struct Filter404: HTTPResponseFilter {
 
 public class main {
     let server = HTTPServer()
-    
+
     init() {
         // 监听8181端口
         server.serverPort = 8181
@@ -32,11 +32,11 @@ public class main {
         // 系统会自动为路由增加一个静态文件处理句柄
         // 实际目录 /Users/kongfanwu/Library/Developer/Xcode/DerivedData/MyAwesomeProject-ecefspusbltlfedfpqvrptxqtgui/Build/Products/Debug/files
         server.documentRoot = "./webroot"
-        
+
         // 添加相应404过滤
         let responseFilters404: [(HTTPResponseFilter, HTTPFilterPriority)] = [(Filter404(), .high)]
         server.setResponseFilters(responseFilters404)
-        
+
         // 初始化一个日志记录器
         let myLogger = RequestLogger()
         // 增加过滤器
@@ -47,7 +47,7 @@ public class main {
 
         // 添加路由
         _ = FWRoutes(server: server)
-        
+
         do {
             try server.start()
         } catch PerfectError.networkError(let err, let msg) {
@@ -57,4 +57,3 @@ public class main {
 }
 
 _ = main()
-

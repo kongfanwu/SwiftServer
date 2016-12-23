@@ -6,18 +6,17 @@
 //
 //
 
-import Foundation
 import SQLite
 
 public class FWDBManager {
     let dbPath = "./DataBase/db"
-    
+
     init() {
         createDB()
     }
-    
+
     static let shareManager = FWDBManager()
-    
+
     func createDB() {
         var sqlite: SQLite
         do {
@@ -27,12 +26,12 @@ public class FWDBManager {
             }
 
             try sqlite.execute(statement: "CREATE TABLE IF NOT EXISTS Users (id INTEGER PRIMARY KEY NOT NULL, user TEXT NOT NULL, pwd TEXT NOT NULL, name TEXT NOT NULL)")
-            
+
         } catch {
             print("数据库打开失败")
         }
     }
-    
+
     /// 保存用户信息
     ///
     /// - Parameter sql: sq语句
@@ -43,15 +42,15 @@ public class FWDBManager {
             defer {
                 sqlite.close()
             }
-            
+
             try sqlite.execute(statement: sql)
         } catch {
             return false
         }
         return true
     }
-    
-    
+
+
     /// 查询用户用户是否存在
     ///
     /// - Parameters:
@@ -65,7 +64,7 @@ public class FWDBManager {
             defer {
                 sqlite.close()
             }
-            
+
             try sqlite.forEachRow(statement: sql) {(statement: SQLiteStmt, i:Int) -> () in
                 let user = statement.columnText(position: 0)
                 if userName == user {
