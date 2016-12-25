@@ -1,6 +1,0 @@
-version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
-options: "2517062eef995a052accc4d39b021152"
-build_time: [535113542, 459681000]
-inputs:
-  "/Users/kongfanwu/Desktop/AwesomeProject/Sources/main.swift": [535112662, 0]
-  "/Users/kongfanwu/Desktop/AwesomeProject/Sources/xuexi.swift": [535110324, 0]
